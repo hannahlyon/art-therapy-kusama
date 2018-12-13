@@ -1,0 +1,77 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+#bg {
+  position: absolute;
+  float: left;
+  width: 100%;
+  margin: 0;
+}
+
+.dot {
+  float: left;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  visibility: hidden;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 32px;
+  padding: 30px;
+}
+
+#dot-one {
+  width: 300px;
+  height: 300px;
+  left: 10%;
+  top: 100px;
+  background-color: #2355C6;
+  padding: 40px;
+}
+
+#dot-two {
+  left: 35%;
+  top: 600px;
+  width: 150px;
+  height: 150px;
+  background-color: #ED7C5C;
+  padding: 25px;
+}
+
+#dot-three {
+  left: 55%;
+  top: 250px;
+  background-color: #F4BA41;
+
+}
+
+#next {
+  position: absolute;
+  float: left;
+  width: 115px;
+  height: 115px;
+  background-color: #E83F47;
+  left: 80%;
+  top: 750px;
+  border-radius: 50%;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  visibility: hidden;
+  font-size: 16px;
+}

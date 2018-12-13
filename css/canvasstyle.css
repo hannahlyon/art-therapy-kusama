@@ -1,0 +1,126 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+p, h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wrapper {
+  position: relative;
+}
+
+#toolbar {
+  position: absolute;
+  width: 200px;
+  height: 637px;
+  background-color: rgb(240,240,240);
+}
+
+#header {
+  position: absolute;
+  left: 22%;
+  top: 5%;
+}
+
+#canvas {
+  position: absolute;
+  left: 200px;
+}
+
+#obliterate {
+  position: absolute;
+  left: 25%;
+  bottom: 75px;
+  width: 100px;
+  height: 33px;
+}
+
+#obliterate-draw {
+  position: absolute;
+  left: 25%;
+  bottom: 115px;
+  width: 100px;
+  height: 33px;
+}
+
+#restart {
+  position: absolute;
+  left: 25%;
+  bottom: 35px;
+  width: 100px;
+  height: 33px;
+}
+
+#pinkbtn {
+  position: absolute;
+  top: 22%;
+  left: 25%;
+  width: 100px;
+  height: 33px;
+  background-color: '#F591C8';
+}
+
+#bluebtn {
+  position: absolute;
+  top: 27%;
+  left: 25%;
+  width: 100px;
+  height: 33px;
+  background-color: '#5D85B0';
+}
+
+#greenbtn {
+  position: absolute;
+  top: 32%;
+  left: 25%;
+  width: 100px;
+  height: 33px;
+  background-color: '#93BD6A';
+}
+
+#purplebtn {
+  position: absolute;
+  top: 37%;
+  left: 25%;
+  width: 100px;
+  height: 33px;
+  background-color: '#7456BA';
+}
+
+#orangebtn {
+  position: absolute;
+  top: 42%;
+  left: 25%;
+  width: 100px;
+  height: 33px;
+  background-color: '#E8855B';
+}
+
+#yellowbtn {
+  position: absolute;
+  top: 47%;
+  left: 25%;
+  width: 100px;
+  height: 33px;
+  background-color: '#FFED6E';
+}
+
+#blackbtn {
+  position: absolute;
+  top: 52%;
+  left: 25%;
+  width: 100px;
+  height: 33px;
+  background-color: '#000000';
+}
+
+#bgbtn {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  width: 100px;
+  height: 33px;
+  background-color: '#000000';
+}
